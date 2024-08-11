@@ -1,2 +1,3 @@
-# OS command Injection
- Writeup for learning web, specifically OS command Injection on Lekir Framework
+# OS Command Injection
+
+ This is the Writeup for learning web, specifically OS command Injection on LEKIR Framework
