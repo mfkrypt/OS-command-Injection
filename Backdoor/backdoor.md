@@ -8,7 +8,7 @@ After running the LEKIR Docker container and accessing it through the browser, n
 
 ![Figure2](./imgs/img2.png)
 
-1. 1st Step: Identfying Vulnerabilities
+## 1st Step: Identfying Vulnerabilities
 
 Input any valid IP. Let's try Google's
 
@@ -26,7 +26,7 @@ As you can see, we succeded in listing the contents in the current directory usi
 
 ![Figure6](./imgs/img6.png)
 
-2. 2nd Step: Exploiting Vulnerabilities
+## 2nd Step: Exploiting Vulnerabilities
 
 Since this web app uses PHP as its backend, we can just exploit it by using a PHP backdoor script. By default the backdoor script is already in our Kali Linux machine, we just need to get it on the vulnerable web app. You can find the script by using the `locate` command in the terminal
 
@@ -81,6 +81,7 @@ You can check the available interfaces using:
 `
 ip a
 `
+
 ![Figure11](./imgs/img11.png)
 
 
@@ -126,7 +127,7 @@ It didn't execute the file. Let's verify this by using `ls`
 
 Great!! it worked, our backdoor is downloaded. On to the next step.
 
-3. 3rd Step: Gaining Access
+## 3rd Step: Gaining Access
 
 Now that the backdoor script is inside the vulnerable system, we can execute it. But wait...remember that we changed it from a .php file to a .txt file? .txt files are for reading only
 
@@ -148,7 +149,7 @@ Run it
 
 ![Figure20](./imgs/img20.png)
 
-What you are seeing is the web-based control panel of the backdoor, aloowing you to interact with the server in various ways including command execution, file uplaod, directory browsing and database query execution
+What you are seeing is the web-based control panel of the backdoor, allowing you to interact with the server in various ways including command execution, file upload, directory browsing and database query execution
 
 
 
