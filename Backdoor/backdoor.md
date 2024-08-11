@@ -48,7 +48,7 @@ To see if the server was launched successfully. Go to the browser and enter 'loc
 
 Now that's done, there are 2 ways we can download / retrieve the backdoor script on the vulnerable web app now that it is on a webserver.
 
-- wget
+- **wget**
 
 check if wget is installed in the vulnerable system by entering `wget -h`
 
@@ -56,7 +56,7 @@ check if wget is installed in the vulnerable system by entering `wget -h`
 
 Looks like wget is not installed, let's move on to the next method
 
-- curl
+- **curl**
 
 like before, let's check if it is installed
 
@@ -150,6 +150,8 @@ Run it
 ![Figure20](./imgs/img20.png)
 
 What you are seeing is the web-based control panel of the backdoor, allowing you to interact with the server in various ways including command execution, file upload, directory browsing and database query execution
+
+(In other words, the backdoor worked)
 
 
 
